@@ -8,29 +8,30 @@ Embeding video
 
 ## Getting Started
 
-First, install your dependence:
+### Run locally
 
+**Backend**
 ```bash
-npm install or yarn install
+cd backend
+pip install -r requirements.txt
+export FLASK_APP=app.py
+flask run --port=5000
 ```
 
-and then run the development server:
-
+**Frontend**
 ```bash
+cd frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3006](http://localhost:3006) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
 
 ## What Techs I used
 
