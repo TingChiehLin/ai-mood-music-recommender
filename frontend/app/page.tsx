@@ -1,13 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Logo from "@/assets/imgs/logo.png";
+
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[84px_1fr_60px] h-screen">
-      <header className="h-[84px] flex justify-between items-center px-6 border-b border-gray-200 w-full">
+    <div className="font-sans grid grid-rows-[96px_1fr_60px] h-screen">
+      <header className="h-[96px] flex justify-between items-center px-6 border-b border-gray-200 w-full ">
         <div className="max-w-7xl mx-auto flex justify-between items-center w-full">
           <div className="flex items-center gap-2">
-            <Image src="/logo.svg" alt="Logo" width={32} height={32} />
+            <Link href={"/"}>
+              <Image
+                src={Logo}
+                alt="Logo"
+                width={64}
+                height={64}
+                priority
+                className="cursor-pointer"
+              />
+            </Link>
           </div>
 
           <nav className="flex gap-6">
@@ -26,7 +37,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex flex-col items-center justify-center w-full text-center p-8">
+      <main className="flex flex-col items-center justify-center w-full text-center p-8 bg-slate-100">
         <section id="home" className="max-w-2xl px-6">
           <h2 className="text-4xl font-bold mb-4">
             Welcome to AI Mood Music Recommender
