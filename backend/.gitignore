@@ -1,0 +1,24 @@
+# Python / Flask ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Database / cache files
+instance/
+*.db
+*.sqlite3

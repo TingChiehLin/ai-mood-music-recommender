@@ -1,0 +1,8 @@
+#!/Users/JayLinXR/Downloads/USYD_Study/2025_Semester_2/COMP9001/9001_final/ai-mood-music-recommender/backend/.venv/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from websockets.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
