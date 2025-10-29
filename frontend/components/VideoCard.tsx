@@ -55,17 +55,6 @@ export default function VideoCard({
           {video.title}
         </h3>
 
-        {/* <div className="bg-red-300 h-32 text-black-300 mt-2 flex items-center gap-4 flex-wrap">
-            {(video.tags || []).slice(0, 3).map((tag) => (
-              <span
-                key={tag}
-                className="text-xs px-2 py-0.5 bg-violet-50 text-violet-700 rounded-full"
-              >
-                {tag}
-              </span>
-            ))}
-          </div> */}
-
         <div className="mt-auto flex items-center justify-between">
           <a
             href={video.url}

@@ -33,7 +33,7 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
     <form
       onSubmit={handleSubmit}
       aria-describedby="mood-help"
-      className="space-y-4"
+      className="space-y-3"
     >
       <label htmlFor="mood" className="text-sm font-medium sr-only">
         How are you feeling?
@@ -64,7 +64,7 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
             key={p.id}
             type="button"
             onClick={() => applyPreset(p.mood)}
-            className="px-3 py-1 rounded-full border border-slate-200 text-sm hover:bg-violet-50 transition"
+            className=" cursor-pointer px-3 py-1 rounded-full border border-slate-200 text-xs hover:bg-violet-50 transition"
             aria-label={`Use preset ${p.label}`}
           >
             {p.label}
@@ -72,10 +72,10 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
         ))}
       </div>
 
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center mt-8">
         <button
           type="submit"
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-600 text-white font-medium hover:bg-violet-700 disabled:opacity-60"
+          className="cursor-pointer inline-flex items-center gap-2 px-6 py-2 rounded-full bg-violet-600 text-white font-medium hover:bg-violet-700 disabled:opacity-60"
           disabled={isLoading}
         >
           {isLoading ? (
@@ -113,7 +113,7 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
             setMood("");
             setCharCount(0);
           }}
-          className="text-sm px-3 py-1 rounded-md border"
+          className="cursor-pointer text-sm px-3 py-1 rounded-md border"
         >
           Clear
         </button>

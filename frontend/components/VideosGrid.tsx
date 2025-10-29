@@ -12,7 +12,20 @@ type Props = {
 export default function VideosGrid({ videos, onPlay, columns = 2 }: Props) {
   const gridCols = columns === 1 ? "grid-cols-1" : "sm:grid-cols-2";
 
-  if (!videos || videos.length === 0)
+  // dedupe by videoId
+  const uniqueVideos = React.useMemo(() => {
+    return [...new Map(videos.map((v) => [v.videoId, v])).values()];
+  }, [videos]);
+
+  // log duplicates so you see where the problem is
+  React.useEffect(() => {
+    const counts: Record<string, number> = {};
+    for (const v of videos) counts[v.videoId] = (counts[v.videoId] || 0) + 1;
+    const dups = Object.entries(counts).filter(([, c]) => c > 1);
+    if (dups.length) console.warn("Duplicate videoIds found:", dups);
+  }, [videos]);
+
+  if (!uniqueVideos || uniqueVideos.length === 0)
     return <p className="text-sm text-slate-500">No videos found.</p>;
 
   return (
