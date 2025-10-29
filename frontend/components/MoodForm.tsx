@@ -7,10 +7,10 @@ type Props = {
 };
 
 const PRESETS = [
-  { label: "Relax", mood: "calm, relaxed, slow tempo" },
-  { label: "Focus", mood: "focused, no vocals, instrumental" },
-  { label: "Boost", mood: "energetic, pump up, driving beats" },
-  { label: "Sleep", mood: "sleepy, ambient, soft piano" },
+  { id: "relax", label: "Relax", mood: "calm, relaxed, slow tempo" },
+  { id: "focus", label: "Focus", mood: "focused, no vocals, instrumental" },
+  { id: "boost", label: "Boost", mood: "energetic, pump up, driving beats" },
+  { id: "sleep", label: "Sleep", mood: "sleepy, ambient, soft piano" },
 ];
 
 export default function MoodForm({ onSubmit, isLoading = false }: Props) {
@@ -61,8 +61,8 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
       <div className="flex gap-2 flex-wrap">
         {PRESETS.map((p) => (
           <button
+            key={p.id}
             type="button"
-            key={p.label}
             onClick={() => applyPreset(p.mood)}
             className="px-3 py-1 rounded-full border border-slate-200 text-sm hover:bg-violet-50 transition"
             aria-label={`Use preset ${p.label}`}

@@ -35,32 +35,63 @@ export default function SearchPage() {
       )}
 
       {ai && (
-        <section className="mt-24 mb-10">
-          <div className="flex items-start justify-between">
-            <div>
-              <h2 className="text-xl font-semibold">{ai.playlist_title}</h2>
-              <p className="text-sm text-slate-600 mt-1">{ai.description}</p>
+        <section className="mt-32 mb-10">
+          <div className="flex flex-col md:flex-row md:items-start justify-between mb-12 gap-4">
+            <div className="md:max-w-[65%]">
+              <h2 className="text-left text-2xl font-semibold leading-tight">
+                {ai.playlist_title}
+              </h2>
+              <p className="text-left text-sm text-slate-600 mt-2">
+                {ai.description}
+              </p>
             </div>
 
-            <div className="text-right text-xs text-slate-500">
-              <div>{ai.tone}</div>
-              <div className="mt-1">{ai.genres.join(", ")}</div>
+            <div className="flex flex-col items-end text-right gap-3 md:pl-6">
+              <div className="inline-flex items-center gap-2 text-xs">
+                {/* <svg
+                  className="h-4 w-4 shrink-0"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    opacity="0.15"
+                  />
+                  <path
+                    d="M8 12h8"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                  />
+                </svg> */}
+                <span className="px-3 py-1 rounded-full bg-violet-50 text-violet-700 border border-violet-100 text-xs font-medium">
+                  {ai.tone}
+                </span>
+              </div>
+
+              {/* Genres as chips */}
+              <div className="flex flex-wrap justify-end gap-2">
+                {ai.genres.map((g) => (
+                  <span
+                    key={g}
+                    className="text-xs px-3 py-1 rounded-full border border-slate-200 bg-slate-50"
+                    aria-label={`Genre ${g}`}
+                  >
+                    {g}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
-          <div className="mt-4">
-            <VideosGrid videos={videos} />
-          </div>
+          <VideosGrid videos={videos} />
 
-          <div className="mt-4 flex gap-2">
-            {/* <button
-              onClick={() => {
-                clear();
-              }}
-              className="px-3 py-1 rounded border text-sm"
-            >
-              Clear
-            </button> */}
+          <div className="mt-16 flex gap-2">
             <a
               href="#"
               onClick={(e) => {

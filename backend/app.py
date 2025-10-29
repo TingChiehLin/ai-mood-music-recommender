@@ -2,16 +2,12 @@ from flask import Flask, request, jsonify
 import os
 import openai
 import requests
-from supabase import create_client
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY")
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 YOUTUBE_KEY = os.getenv("YOUTUBE_API_KEY")
-# SUPABASE_URL = os.getenv("SUPABASE_URL")
-# SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-# supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 @app.route("/", methods=["GET"])
@@ -91,15 +87,5 @@ def recommend():
         r = youtube_search(k, max_results=1)
         if r:
             youtube_results.append(r[0])
-
-    # save to supabase
-    # supabase.table("mood_requests").insert(
-    #     {
-    #         "user_id": user_id,
-    #         "mood_text": mood_text,
-    #         "ai_payload": ai,
-    #         "youtube_results": youtube_results,
-    #     }
-    # ).execute()
 
     return jsonify({"ai": ai, "youtube": youtube_results})
