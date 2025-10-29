@@ -1,11 +1,22 @@
-This is COMP9001 final course. I developed an app for people 
-who want to alleviate their stress using ai mood music recommender.
+1. upload your files. 
+2. You can also include a readme file with github link include information about your project such as 
+3. title, motivation, more details about the idea
+4. Finally, you can also include a demo video or images on your github. 
 
-## Intro
+## title
+
+I developed an app for people who want to alleviate their stress using ai mood music recommender.
+
+Motivation: Why?
+
+<img>Project Intro Image</img>
+
+## Demo Video
 
 Embeding video 
-
 <iframe></iframe>
+
+## Gallery
 
 ## Getting Started
 
@@ -54,9 +65,14 @@ Backend Dev:
 - requests
 - jsonify
 
-Database:
+## Concept I used
 
-- Superbase
+-More Flow Control (week 8) 
+-File I/O (week 9) 
+-Testing (week 10) 
+-Recursion (week 11) 
+-Multi Dimensional Lists (week 12) 
+-Numpy (week 12)
 
 ## Learn More
 
@@ -67,7 +83,7 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Demo](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Demo Link](https://nextjs.org/learn)
 
 
 

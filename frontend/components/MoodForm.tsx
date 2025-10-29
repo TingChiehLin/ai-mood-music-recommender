@@ -35,7 +35,7 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
       aria-describedby="mood-help"
       className="space-y-4"
     >
-      <label htmlFor="mood" className="text-sm font-medium">
+      <label htmlFor="mood" className="text-sm font-medium sr-only">
         How are you feeling?
       </label>
 
@@ -117,10 +117,6 @@ export default function MoodForm({ onSubmit, isLoading = false }: Props) {
         >
           Clear
         </button>
-
-        <p id="mood-help" className="text-sm text-slate-500 ml-auto">
-          Try a short phrase — we’ll generate a soothing playlist.
-        </p>
       </div>
     </form>
   );

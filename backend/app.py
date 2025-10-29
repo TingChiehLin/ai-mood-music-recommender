@@ -9,9 +9,9 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY")
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 YOUTUBE_KEY = os.getenv("YOUTUBE_API_KEY")
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+# SUPABASE_URL = os.getenv("SUPABASE_URL")
+# SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+# supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 @app.route("/", methods=["GET"])
@@ -77,10 +77,9 @@ def youtube_search(query, max_results=1):
 
 @app.route("/recommend", methods=["POST"])
 def recommend():
-    print("Testing")
     data = request.json
     mood_text = data.get("mood")
-    user_id = data.get("user_id")
+    # user_id = data.get("user_id")
     try:
         ai = call_openai_for_recommendations(mood_text)
     except Exception as e:
@@ -94,13 +93,13 @@ def recommend():
             youtube_results.append(r[0])
 
     # save to supabase
-    supabase.table("mood_requests").insert(
-        {
-            "user_id": user_id,
-            "mood_text": mood_text,
-            "ai_payload": ai,
-            "youtube_results": youtube_results,
-        }
-    ).execute()
+    # supabase.table("mood_requests").insert(
+    #     {
+    #         "user_id": user_id,
+    #         "mood_text": mood_text,
+    #         "ai_payload": ai,
+    #         "youtube_results": youtube_results,
+    #     }
+    # ).execute()
 
     return jsonify({"ai": ai, "youtube": youtube_results})
