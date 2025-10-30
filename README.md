@@ -1,8 +1,3 @@
-1. upload your files. 
-2. You can also include a readme file with github link include information about your project such as 
-3. title, motivation, more details about the idea
-4. Finally, you can also include a demo video or images on your github. 
-
 ## title
 
 I developed an app for people who want to alleviate their stress using ai mood music recommender.
@@ -17,6 +12,8 @@ Embeding video
 <iframe></iframe>
 
 ## Gallery
+
+<img>Project Intro Image</img>
 
 ## Getting Started
 
@@ -63,10 +60,10 @@ Backend Dev:
 
 ## Concept I used
 
--More Flow Control (week 8) 
--File I/O (week 9) 
--Testing (week 10) 
--Recursion (week 11) 
+-More Flow Control 
+-File I/O
+-Testing 
+-Recursion  
 
 ## Learn More
 

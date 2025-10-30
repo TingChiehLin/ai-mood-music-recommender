@@ -17,7 +17,7 @@ export default function VideosGrid({ videos, onPlay, columns = 2 }: Props) {
     return [...new Map(videos.map((v) => [v.videoId, v])).values()];
   }, [videos]);
 
-  // log duplicates so you see where the problem is
+  // log duplicates after rendering
   React.useEffect(() => {
     const counts: Record<string, number> = {};
     for (const v of videos) counts[v.videoId] = (counts[v.videoId] || 0) + 1;

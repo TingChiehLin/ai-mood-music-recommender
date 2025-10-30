@@ -16,7 +16,7 @@ export default function SearchPage() {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <header className="mb-8">
+      <header className="mb-12">
         <h1 className="text-5xl font-bold">Mood Recommendation Music</h1>
         <p className="text-lg text-slate-500 mt-2">
           Tell me how you are feeling and it will create a mood playlist for
@@ -35,7 +35,7 @@ export default function SearchPage() {
       )}
 
       {ai && (
-        <section className="mt-32 mb-10">
+        <section className="mt-24 mb-10">
           <div className="flex flex-col md:flex-row md:items-start justify-between mb-12 gap-4">
             <div className="md:max-w-[65%]">
               <h2 className="text-left text-2xl font-semibold leading-tight">
