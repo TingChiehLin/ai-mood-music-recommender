@@ -25,9 +25,10 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json(data);
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("POST /api/recommend error:", err);
-    const message = err?.message || "Internal server error";
+    // Type guard for unknown
+    const message = err instanceof Error ? err.message : "Internal server error";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }
