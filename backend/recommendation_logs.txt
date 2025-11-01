@@ -191,3 +191,46 @@
     }
   ]
 }
+
+[2025-11-02 02:14:36.057347]
+{
+  "mood": "I want to do meditation. Could you give me some music?",
+  "ai": {
+    "playlist_title": "Serene Meditation Vibes",
+    "description": "A collection of calming tracks to enhance your meditation experience.",
+    "genres": [
+      "Ambient",
+      "New Age",
+      "Instrumental"
+    ],
+    "keywords": [
+      "meditation music",
+      "calm ambient",
+      "relaxing new age",
+      "instrumental for mindfulness"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "1ZYbU82GVz4",
+      "title": "Flying: Relaxing Sleep Music for Meditation, Stress Relief &amp; Relaxation by Peder B. Helland",
+      "url": "https://www.youtube.com/watch?v=1ZYbU82GVz4"
+    },
+    {
+      "videoId": "DRFHklnN-SM",
+      "title": "Tranquility - Deep Healing Relaxing Music - Meditation Ambient Music",
+      "url": "https://www.youtube.com/watch?v=DRFHklnN-SM"
+    },
+    {
+      "videoId": "Px4wBfficJw",
+      "title": "New Age Music: Relaxing Music; Reiki Music; Yoga Music; Relaxation Music; Spa Music;  🌅",
+      "url": "https://www.youtube.com/watch?v=Px4wBfficJw"
+    },
+    {
+      "videoId": "EkbM5EfFyME",
+      "title": "Mindfulness Meditation Music for Focus, Concentration to Relax",
+      "url": "https://www.youtube.com/watch?v=EkbM5EfFyME"
+    }
+  ]
+}
