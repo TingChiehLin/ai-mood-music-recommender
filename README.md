@@ -4,14 +4,13 @@ This project capitalizes on the positive uses of music as a quick and efficient 
 
 ## Demo Video
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.loom.com/embed/0b8e43d4611d4f8d8375035112f79b4e" 
-          frameborder="0" 
-          webkitallowfullscreen 
-          mozallowfullscreen 
-          allowfullscreen 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
+<div>
+    <a href="https://www.loom.com/share/0b8e43d4611d4f8d8375035112f79b4e">
+      <p>Moot Music Recommender: Find Your Perfect Soundtrack for Every Mood 🎶 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/0b8e43d4611d4f8d8375035112f79b4e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0b8e43d4611d4f8d8375035112f79b4e-6faf923f85591f03-full-play.gif">
+    </a>
 </div>
 
 ## Gallery
