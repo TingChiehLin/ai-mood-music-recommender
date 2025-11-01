@@ -6,9 +6,6 @@ This project capitalizes on the positive uses of music as a quick and efficient 
 
 <div>
     <a href="https://www.loom.com/share/0b8e43d4611d4f8d8375035112f79b4e">
-      <p>Moot Music Recommender: Find Your Perfect Soundtrack for Every Mood 🎶 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/0b8e43d4611d4f8d8375035112f79b4e">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0b8e43d4611d4f8d8375035112f79b4e-6faf923f85591f03-full-play.gif">
     </a>
 </div>
