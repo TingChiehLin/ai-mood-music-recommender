@@ -141,3 +141,53 @@
     }
   ]
 }
+
+[2025-11-01 04:03:46.491882]
+{
+  "mood": "energetic, pump up, driving beats",
+  "ai": {
+    "playlist_title": "High Energy Drive",
+    "description": "Get ready to hit the road with these electrifying tracks that will keep your adrenaline pumping.",
+    "genres": [
+      "EDM",
+      "Hip Hop",
+      "Rock",
+      "Pop"
+    ],
+    "keywords": [
+      "energetic songs",
+      "pump up tracks",
+      "driving beats",
+      "upbeat EDM",
+      "high energy rock"
+    ],
+    "tone": "exhilarating"
+  },
+  "youtube": [
+    {
+      "videoId": "ljnGl5nvUJY",
+      "title": "Songs that&#39;ll make you dance the whole day ~ Mood booster playlist",
+      "url": "https://www.youtube.com/watch?v=ljnGl5nvUJY"
+    },
+    {
+      "videoId": "99lIIjKsB0g",
+      "title": "Pump Up Songs 2018",
+      "url": "https://www.youtube.com/watch?v=99lIIjKsB0g"
+    },
+    {
+      "videoId": "0KaaveC_sX4",
+      "title": "Aggressive Fast Flow Trap Rap Beat Instrumental &#39;&#39;DRIVE BY&#39;&#39; Hard Angry Tyga Type Hype Trap Beat",
+      "url": "https://www.youtube.com/watch?v=0KaaveC_sX4"
+    },
+    {
+      "videoId": "gnV-8pkILF0",
+      "title": "Proximity - Best EDM of 2010-2019 (Decade Mix)",
+      "url": "https://www.youtube.com/watch?v=gnV-8pkILF0"
+    },
+    {
+      "videoId": "lhg9bYNLvOg",
+      "title": "Thunderstruck",
+      "url": "https://www.youtube.com/watch?v=lhg9bYNLvOg"
+    }
+  ]
+}

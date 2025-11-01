@@ -9,8 +9,10 @@ Embeding video
 
 ## Gallery
 
-<div></div>
-[music_result](./gallery//music_result.png)
+<div style="display: flex; gap: 20px;">
+  <img src="./gallery/music_home.png" alt="Music Home" style="width: 300px;">
+  <img src="./gallery/music_result.png" alt="Music Result" style="width: 300px;">
+</div>
 
 ## Getting Started
 
@@ -68,10 +70,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Tailwindcss](https://tailwindcss.com/) - an interactive Next.js tutorial.
-
-## Deploy to cloud server
-
-[Demo Link]()
 
 
 
