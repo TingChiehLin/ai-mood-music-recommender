@@ -10,8 +10,8 @@ Embeding video
 ## Gallery
 
 <div style="display: flex; gap: 10px;">
-  <img src="./gallery/music_home.png" alt="Music Home" style="width: 45%">
-  <img src="./gallery/music_result.png" alt="Music Result" style="width: 45%">
+  <img src="./gallery/music_home.png" alt="Music Home" style="width: 49%">
+  <img src="./gallery/music_result.png" alt="Music Result" style="width: 49%">
 </div>
 
 ## Getting Started
