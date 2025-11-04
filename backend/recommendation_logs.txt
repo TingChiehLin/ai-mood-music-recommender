@@ -1,0 +1,328 @@
+
+[2025-10-31 02:59:39.335433]
+{
+  "mood": "sleepy, ambient, soft piano",
+  "ai": {
+    "playlist_title": "Dreamy Piano Nights",
+    "description": "A soothing collection of soft piano melodies to guide you into a tranquil sleep.",
+    "genres": [
+      "Ambient",
+      "Classical",
+      "Instrumental"
+    ],
+    "keywords": [
+      "soft piano",
+      "ambient music",
+      "calming sounds",
+      "sleepy melodies",
+      "relaxing instrumental"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "3NycM9lYdRI",
+      "title": "Relaxing Piano Music: Romantic Music, Beautiful Relaxing Music, Sleep Music, Stress Relief ★122",
+      "url": "https://www.youtube.com/watch?v=3NycM9lYdRI"
+    },
+    {
+      "videoId": "DRFHklnN-SM",
+      "title": "Tranquility - Deep Healing Relaxing Music - Meditation Ambient Music",
+      "url": "https://www.youtube.com/watch?v=DRFHklnN-SM"
+    },
+    {
+      "videoId": "V1RPi2MYptM",
+      "title": "Relaxing Zen Music with Water Sounds • Peaceful Ambience for Spa, Yoga and Relaxation",
+      "url": "https://www.youtube.com/watch?v=V1RPi2MYptM"
+    },
+    {
+      "videoId": "rA7m3iKpuko",
+      "title": "Deep Sleep Music ★︎ FALL ASLEEP IMMEDIATELY ★︎ Melatonin Release",
+      "url": "https://www.youtube.com/watch?v=rA7m3iKpuko"
+    },
+    {
+      "videoId": "kO1gvHp52l0",
+      "title": "Hours Relaxing Guitar Music, Meditation Music, Instrumental Music, Calming Music, Soft Music",
+      "url": "https://www.youtube.com/watch?v=kO1gvHp52l0"
+    }
+  ]
+}
+
+[2025-10-31 03:09:44.365361]
+{
+  "mood": "calm, relaxed, slow tempo",
+  "ai": {
+    "playlist_title": "Serene Vibes",
+    "description": "A collection of soothing tracks to help you unwind and relax.",
+    "genres": [
+      "Ambient",
+      "Chillout",
+      "Lofi",
+      "Acoustic"
+    ],
+    "keywords": [
+      "calm ambient music",
+      "relaxing lofi beats",
+      "slow tempo acoustic songs",
+      "chillout playlists"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "DRFHklnN-SM",
+      "title": "Tranquility - Deep Healing Relaxing Music - Meditation Ambient Music",
+      "url": "https://www.youtube.com/watch?v=DRFHklnN-SM"
+    },
+    {
+      "videoId": "OO2kPK5-qno",
+      "title": "Make you feel positive and peaceful 🍀 Lofi Coffee ☕ ~ Lofi Hip Hop - Lofi Music [ Study/ Relax ]",
+      "url": "https://www.youtube.com/watch?v=OO2kPK5-qno"
+    },
+    {
+      "videoId": "KMNyDlpX5Zg",
+      "title": "Jonah Baker - 20+ Best Acoustic Covers (Compilation)",
+      "url": "https://www.youtube.com/watch?v=KMNyDlpX5Zg"
+    },
+    {
+      "videoId": "6h-sEV6uNxo",
+      "title": "Tropical Chillout Grooves 🌊 Let the Waves &amp; Lounge Music Soothe Your Soul",
+      "url": "https://www.youtube.com/watch?v=6h-sEV6uNxo"
+    }
+  ]
+}
+
+[2025-10-31 03:10:00.402632]
+{
+  "mood": "energetic, pump up, driving beats",
+  "ai": {
+    "playlist_title": "High Energy Drive",
+    "description": "Get ready to hit the road with these electrifying tracks that will keep your adrenaline pumping.",
+    "genres": [
+      "EDM",
+      "Hip Hop",
+      "Rock",
+      "Pop"
+    ],
+    "keywords": [
+      "energetic songs",
+      "pump up tracks",
+      "driving beats",
+      "upbeat EDM",
+      "high energy rock"
+    ],
+    "tone": "exhilarating"
+  },
+  "youtube": [
+    {
+      "videoId": "ljnGl5nvUJY",
+      "title": "Songs that&#39;ll make you dance the whole day ~ Mood booster playlist",
+      "url": "https://www.youtube.com/watch?v=ljnGl5nvUJY"
+    },
+    {
+      "videoId": "99lIIjKsB0g",
+      "title": "Pump Up Songs 2018",
+      "url": "https://www.youtube.com/watch?v=99lIIjKsB0g"
+    },
+    {
+      "videoId": "0KaaveC_sX4",
+      "title": "Aggressive Fast Flow Trap Rap Beat Instrumental &#39;&#39;DRIVE BY&#39;&#39; Hard Angry Tyga Type Hype Trap Beat",
+      "url": "https://www.youtube.com/watch?v=0KaaveC_sX4"
+    },
+    {
+      "videoId": "gnV-8pkILF0",
+      "title": "Proximity - Best EDM of 2010-2019 (Decade Mix)",
+      "url": "https://www.youtube.com/watch?v=gnV-8pkILF0"
+    },
+    {
+      "videoId": "lhg9bYNLvOg",
+      "title": "Thunderstruck",
+      "url": "https://www.youtube.com/watch?v=lhg9bYNLvOg"
+    }
+  ]
+}
+
+[2025-11-01 04:03:46.491882]
+{
+  "mood": "energetic, pump up, driving beats",
+  "ai": {
+    "playlist_title": "High Energy Drive",
+    "description": "Get ready to hit the road with these electrifying tracks that will keep your adrenaline pumping.",
+    "genres": [
+      "EDM",
+      "Hip Hop",
+      "Rock",
+      "Pop"
+    ],
+    "keywords": [
+      "energetic songs",
+      "pump up tracks",
+      "driving beats",
+      "upbeat EDM",
+      "high energy rock"
+    ],
+    "tone": "exhilarating"
+  },
+  "youtube": [
+    {
+      "videoId": "ljnGl5nvUJY",
+      "title": "Songs that&#39;ll make you dance the whole day ~ Mood booster playlist",
+      "url": "https://www.youtube.com/watch?v=ljnGl5nvUJY"
+    },
+    {
+      "videoId": "99lIIjKsB0g",
+      "title": "Pump Up Songs 2018",
+      "url": "https://www.youtube.com/watch?v=99lIIjKsB0g"
+    },
+    {
+      "videoId": "0KaaveC_sX4",
+      "title": "Aggressive Fast Flow Trap Rap Beat Instrumental &#39;&#39;DRIVE BY&#39;&#39; Hard Angry Tyga Type Hype Trap Beat",
+      "url": "https://www.youtube.com/watch?v=0KaaveC_sX4"
+    },
+    {
+      "videoId": "gnV-8pkILF0",
+      "title": "Proximity - Best EDM of 2010-2019 (Decade Mix)",
+      "url": "https://www.youtube.com/watch?v=gnV-8pkILF0"
+    },
+    {
+      "videoId": "lhg9bYNLvOg",
+      "title": "Thunderstruck",
+      "url": "https://www.youtube.com/watch?v=lhg9bYNLvOg"
+    }
+  ]
+}
+
+[2025-11-02 02:14:36.057347]
+{
+  "mood": "I want to do meditation. Could you give me some music?",
+  "ai": {
+    "playlist_title": "Serene Meditation Vibes",
+    "description": "A collection of calming tracks to enhance your meditation experience.",
+    "genres": [
+      "Ambient",
+      "New Age",
+      "Instrumental"
+    ],
+    "keywords": [
+      "meditation music",
+      "calm ambient",
+      "relaxing new age",
+      "instrumental for mindfulness"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "1ZYbU82GVz4",
+      "title": "Flying: Relaxing Sleep Music for Meditation, Stress Relief &amp; Relaxation by Peder B. Helland",
+      "url": "https://www.youtube.com/watch?v=1ZYbU82GVz4"
+    },
+    {
+      "videoId": "DRFHklnN-SM",
+      "title": "Tranquility - Deep Healing Relaxing Music - Meditation Ambient Music",
+      "url": "https://www.youtube.com/watch?v=DRFHklnN-SM"
+    },
+    {
+      "videoId": "Px4wBfficJw",
+      "title": "New Age Music: Relaxing Music; Reiki Music; Yoga Music; Relaxation Music; Spa Music;  🌅",
+      "url": "https://www.youtube.com/watch?v=Px4wBfficJw"
+    },
+    {
+      "videoId": "EkbM5EfFyME",
+      "title": "Mindfulness Meditation Music for Focus, Concentration to Relax",
+      "url": "https://www.youtube.com/watch?v=EkbM5EfFyME"
+    }
+  ]
+}
+
+[2025-11-04 18:00:21.650842]
+{
+  "mood": "I can not sleep well and I need to do meditation",
+  "ai": {
+    "playlist_title": "Serene Sleep Sounds",
+    "description": "A soothing collection to help you drift into a peaceful meditation and restful sleep.",
+    "genres": [
+      "Ambient",
+      "Meditative",
+      "New Age"
+    ],
+    "keywords": [
+      "calm meditation music",
+      "ambient sleep sounds",
+      "relaxing new age",
+      "soothing instrumental"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "1ZYbU82GVz4",
+      "title": "Flying: Relaxing Sleep Music for Meditation, Stress Relief &amp; Relaxation by Peder B. Helland",
+      "url": "https://www.youtube.com/watch?v=1ZYbU82GVz4"
+    },
+    {
+      "videoId": "13EL6Mgeocc",
+      "title": "Rain Sound (Pure White Noise for Natural Deep Sleep Inducing)",
+      "url": "https://www.youtube.com/watch?v=13EL6Mgeocc"
+    },
+    {
+      "videoId": "Px4wBfficJw",
+      "title": "New Age Music: Relaxing Music; Reiki Music; Yoga Music; Relaxation Music; Spa Music;  🌅",
+      "url": "https://www.youtube.com/watch?v=Px4wBfficJw"
+    },
+    {
+      "videoId": "kO1gvHp52l0",
+      "title": "Hours Relaxing Guitar Music, Meditation Music, Instrumental Music, Calming Music, Soft Music",
+      "url": "https://www.youtube.com/watch?v=kO1gvHp52l0"
+    }
+  ]
+}
+
+[2025-11-04 18:36:09.367819]
+{
+  "mood": "I can not sleep well and I want to do meditation",
+  "ai": {
+    "playlist_title": "Serene Sleep Sounds",
+    "description": "A soothing collection perfect for meditation and restful sleep.",
+    "genres": [
+      "Ambient",
+      "New Age",
+      "Instrumental"
+    ],
+    "keywords": [
+      "meditation music",
+      "calm ambient",
+      "sleep sounds",
+      "relaxing instrumental",
+      "peaceful new age"
+    ],
+    "tone": "calm"
+  },
+  "youtube": [
+    {
+      "videoId": "1ZYbU82GVz4",
+      "title": "Flying: Relaxing Sleep Music for Meditation, Stress Relief &amp; Relaxation by Peder B. Helland",
+      "url": "https://www.youtube.com/watch?v=1ZYbU82GVz4"
+    },
+    {
+      "videoId": "DRFHklnN-SM",
+      "title": "Tranquility - Deep Healing Relaxing Music - Meditation Ambient Music",
+      "url": "https://www.youtube.com/watch?v=DRFHklnN-SM"
+    },
+    {
+      "videoId": "8rTTEMdMh8Q",
+      "title": "🔴 Heavy Rain and Thunder Sounds for Sleeping - Black Screen | Perfect Thunderstorm for Rest, Live",
+      "url": "https://www.youtube.com/watch?v=8rTTEMdMh8Q"
+    },
+    {
+      "videoId": "kO1gvHp52l0",
+      "title": "Hours Relaxing Guitar Music, Meditation Music, Instrumental Music, Calming Music, Soft Music",
+      "url": "https://www.youtube.com/watch?v=kO1gvHp52l0"
+    },
+    {
+      "videoId": "Px4wBfficJw",
+      "title": "New Age Music: Relaxing Music; Reiki Music; Yoga Music; Relaxation Music; Spa Music;  🌅",
+      "url": "https://www.youtube.com/watch?v=Px4wBfficJw"
+    }
+  ]
+}

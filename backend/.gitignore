@@ -22,3 +22,6 @@ venv/
 instance/
 *.db
 *.sqlite3
+
+backend/recommendation_logs.txt
+backend/cache/*.json
